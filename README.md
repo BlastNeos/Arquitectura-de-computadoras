@@ -7,16 +7,6 @@ Este repositorio contiene la implementación de una Unidad Aritmético-Lógica (
 Características
 La ALU implementada soporta las siguientes operaciones:
 
-ADD (Suma)
-SUB (Resta)
-AND (Operación AND bit a bit)
-OR (Operación OR bit a bit)
-XOR (Operación XOR bit a bit)
-SRA (Shift aritmético a la derecha)
-SRL (Shift lógico a la derecha)
-NOR (Operación NOR bit a bit)
-Adicionalmente, la ALU incluye un indicador zero que se activa cuando el resultado de una operación es cero.
-
 Estructura del proyecto
 ALU.v: Implementación de la ALU de 32 bits. El código está parametrizado, permitiendo ajustar el tamaño de las entradas (N, por defecto 32 bits). El módulo recibe dos entradas de datos (A, B), un opcode de 6 bits, y entrega un result y un indicador zero.
 
